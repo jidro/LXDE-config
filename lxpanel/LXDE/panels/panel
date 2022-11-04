@@ -28,7 +28,7 @@ Plugin {
 Plugin {
   type=menu
   Config {
-    image=/home/queen/.local/share/icons/start_menu_icons/quad-grid.svg
+    image=~/.local/share/icons/start_menu_icons/quad-grid.svg
     system {
     }
     separator {
