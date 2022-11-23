@@ -28,7 +28,7 @@ Plugin {
 Plugin {
   type=menu
   Config {
-    image=~/.local/share/icons/start_menu_icons/quad-grid.svg
+    image=/home/queen/.local/share/icons/start_menu/quad-grid.svg
     system {
     }
     separator {
@@ -113,23 +113,6 @@ Plugin {
 Plugin {
   type=tray
   Config {
-  }
-}
-Plugin {
-  type=batt
-  Config {
-    BackgroundColor=black
-    ChargingColor1=#28f200
-    ChargingColor2=#22cc00
-    DischargingColor1=#ffee00
-    DischargingColor2=#d9ca00
-    HideIfNoBattery=0
-    AlarmCommand=notify-send "电池电量低" --icon=battery-caution
-    AlarmTime=5
-    BorderWidth=3
-    Size=10
-    ShowExtendedInformation=0
-    BatteryNumber=0
   }
 }
 Plugin {
