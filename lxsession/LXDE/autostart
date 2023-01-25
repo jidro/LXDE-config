@@ -4,3 +4,4 @@
 @fcitx5
 @numlockx off
 @lxqt-powermanagement
+#@picom -CGb &
