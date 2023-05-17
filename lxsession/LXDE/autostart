@@ -3,5 +3,7 @@
 #@xscreensaver -no-splash
 @fcitx5
 @numlockx off
-@lxqt-powermanagement
+#@lxqt-powermanagement
 #@picom -CGb &
+cbatticon
+dunst &
